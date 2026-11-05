@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Add CIWS anchor to CGF1 turrets -->
+  
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_GAU_4A_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.90</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_GAU_8A_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.90</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_GAU_12U_Equalizer_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.90</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_GAU_13A_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.90</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_GAU_22A_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.90</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_M61_Vulcan_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.90</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_M197_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.90</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_M230_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.80</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_M242_Bushmaster_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.80</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_Mk44_Bushmaster_II_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.80</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+  <Operation MayRequire="cgf1.gunsgalore.modern.usa" Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="CGF1_MWP_Turret_CIWS_Mk44S_Bushmaster_II_"]/comps</xpath>
+    <value>
+      <li Class="NewCIWS.CompProperties_CIWSAnchor">
+        <radius>80</radius>
+        <interceptChance>0.80</interceptChance>
+        <debugAnnounce>false</debugAnnounce>
+      </li>
+    </value>
+  </Operation>
+
+</Patch>
